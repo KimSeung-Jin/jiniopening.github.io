@@ -1,5 +1,5 @@
 ---
-layout: git
+layout: post
 title:  "git pull 강제로 강제로 받기"
 date:   2018-05-04 12:51:30 +0800
 categories: [Git]
