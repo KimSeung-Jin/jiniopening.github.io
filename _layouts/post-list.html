@@ -9,7 +9,7 @@ layout: default
 			</div>
 			<div class="posts-tabs">
 				<span class="posts-tab-item btn-left tab-one active">Git</span>
-				<span class="posts-tab-item btn-right tab-two">Data structure</span>
+				<span class="posts-tab-item btn-right tab-two">DS</span>
                 <span class="posts-tab-item btn-right tab-three">Algorithm</span>
                 <span class="posts-tab-item btn-right tab-four">Swift</span>
 				{% for i in (1..10) %}
@@ -40,7 +40,7 @@ layout: default
 			</ul>
 			<ul class="posts-list tab-two-list tab-hidden" id="pag-itemContainer-two">
 				{% assign counter-two = 0 %}
-				{% for post in site.categories.자료구조 %}
+				{% for post in site.categories.DS %}
 				{% assign counter-two = counter-two | plus: 1 %}
 				<li>
 					<h2>
@@ -61,9 +61,9 @@ layout: default
 				{% endfor %}
 			</ul>
             <ul class="posts-list tab-three-list tab-hidden" id="pag-itemContainer-three">
-                {% assign counter-two = 0 %}
-                {% for post in site.categories.알고리즘 %}
-                {% assign counter-two = counter-two | plus: 1 %}
+                {% assign counter-three = 0 %}
+                {% for post in site.categories.Algorithm %}
+                {% assign counter-three = counter-three | plus: 1 %}
                 <li>
                     <h2>
                         <a href="{{ post.url }}" class="post-title">
@@ -83,9 +83,9 @@ layout: default
                 {% endfor %}
             </ul>
             <ul class="posts-list tab-four-list tab-hidden" id="pag-itemContainer-four">
-                {% assign counter-two = 0 %}
+                {% assign counter-four = 0 %}
                 {% for post in site.categories.Swift %}
-                {% assign counter-two = counter-two | plus: 1 %}
+                {% assign counter-four = counter-four | plus: 1 %}
                 <li>
                     <h2>
                         <a href="{{ post.url }}" class="post-title">
