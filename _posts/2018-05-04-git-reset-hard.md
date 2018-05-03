@@ -21,9 +21,9 @@ git pull 강제로 강제로 받기：
 
 > git 를 쓰다 보면, orgigin master 와 local git 의 매칭이 안될 때가 있다. 이때 pull 명령시 에러가 날 수 있다.
 
-{% highlight javascript %}
+{% highlight html %}
 git reset --hard HEAD 
-git pull #origin #master
+git pull origin master
 {% endhighlight %}
 
 ![viewport1](https://i.imgur.com/GYCMndp.png)
