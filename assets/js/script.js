@@ -28,6 +28,7 @@ $(document).ready(function () {
 		$(".tab-seven").bind("click", showTabSeven);
 		$(".tab-eight").bind("click", showTabEight);
 		$(".tab-nine").bind("click", showTabNine);
+		$(".tab-ten").bind("click", showTabTen);
 	}
 	
 	function showTabOne () {
@@ -40,6 +41,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -48,6 +50,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-one-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -57,6 +60,7 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-one").removeClass("tab-hidden");
 	}
 	function showTabTwo () {
@@ -69,6 +73,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-one-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -77,6 +82,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-two-list").removeClass("tab-hidden");
 		$(".page-holder-one").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -86,6 +92,7 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-two").removeClass("tab-hidden");
 	}
 	function showTabThree () {
@@ -98,6 +105,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-one-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -106,6 +114,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-three-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-one").addClass("tab-hidden");
@@ -127,6 +136,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-one-list").addClass("tab-hidden");
@@ -135,6 +145,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-four-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -144,6 +155,7 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-four").removeClass("tab-hidden");
 	}
 	function showTabFive () {
@@ -156,6 +168,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -164,6 +177,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-five-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -173,6 +187,7 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-five").removeClass("tab-hidden");
 	}
 	function showTabSix () {
@@ -185,6 +200,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -193,6 +209,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-six-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -202,6 +219,7 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-six").removeClass("tab-hidden");
 	}
 	function showTabSeven () {
@@ -214,6 +232,7 @@ $(document).ready(function () {
 		$(".tab-one").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -222,6 +241,7 @@ $(document).ready(function () {
 		$(".tab-one-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-seven-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -231,6 +251,7 @@ $(document).ready(function () {
 		$(".page-holder-one").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-seven").removeClass("tab-hidden");
 	}
 	function showTabEight () {
@@ -243,6 +264,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-one").removeClass("active");
 		$(".tab-nine").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -251,6 +273,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-one-list").addClass("tab-hidden");
 		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-eight-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -260,6 +283,7 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-one").addClass("tab-hidden");
 		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-eight").removeClass("tab-hidden");
 	}
 	function showTabNine () {
@@ -272,6 +296,7 @@ $(document).ready(function () {
 		$(".tab-seven").removeClass("active");
 		$(".tab-eight").removeClass("active");
 		$(".tab-one").removeClass("active");
+		$(".tab-ten").removeClass("active");
 		$(".tab-two-list").addClass("tab-hidden");
 		$(".tab-three-list").addClass("tab-hidden");
 		$(".tab-four-list").addClass("tab-hidden");
@@ -280,6 +305,7 @@ $(document).ready(function () {
 		$(".tab-seven-list").addClass("tab-hidden");
 		$(".tab-eight-list").addClass("tab-hidden");
 		$(".tab-one-list").addClass("tab-hidden");
+		$(".tab-ten-list").addClass("tab-hidden");
 		$(".tab-nine-list").removeClass("tab-hidden");
 		$(".page-holder-two").addClass("tab-hidden");
 		$(".page-holder-three").addClass("tab-hidden");
@@ -289,7 +315,40 @@ $(document).ready(function () {
 		$(".page-holder-seven").addClass("tab-hidden");
 		$(".page-holder-eight").addClass("tab-hidden");
 		$(".page-holder-one").addClass("tab-hidden");
+		$(".page-holder-ten").addClass("tab-hidden");
 		$(".page-holder-nine").removeClass("tab-hidden");
+	}
+	function showTabTen () {
+		$(".tab-ten").addClass("active");
+		$(".tab-two").removeClass("active");
+		$(".tab-three").removeClass("active");
+		$(".tab-four").removeClass("active");
+		$(".tab-five").removeClass("active");
+		$(".tab-six").removeClass("active");
+		$(".tab-seven").removeClass("active");
+		$(".tab-eight").removeClass("active");
+		$(".tab-one").removeClass("active");
+		$(".tab-nine").removeClass("active");
+		$(".tab-two-list").addClass("tab-hidden");
+		$(".tab-three-list").addClass("tab-hidden");
+		$(".tab-four-list").addClass("tab-hidden");
+		$(".tab-five-list").addClass("tab-hidden");
+		$(".tab-six-list").addClass("tab-hidden");
+		$(".tab-seven-list").addClass("tab-hidden");
+		$(".tab-eight-list").addClass("tab-hidden");
+		$(".tab-one-list").addClass("tab-hidden");
+		$(".tab-nine-list").addClass("tab-hidden");
+		$(".tab-ten-list").removeClass("tab-hidden");
+		$(".page-holder-two").addClass("tab-hidden");
+		$(".page-holder-three").addClass("tab-hidden");
+		$(".page-holder-four").addClass("tab-hidden");
+		$(".page-holder-five").addClass("tab-hidden");
+		$(".page-holder-six").addClass("tab-hidden");
+		$(".page-holder-seven").addClass("tab-hidden");
+		$(".page-holder-eight").addClass("tab-hidden");
+		$(".page-holder-one").addClass("tab-hidden");
+		$(".page-holder-nine").addClass("tab-hidden");
+		$(".page-holder-ten").removeClass("tab-hidden");
 	}
 })
 
@@ -388,6 +447,17 @@ $(function(){
   });
 	$("div.page-holder-nine").jPages({
       containerID  : "pag-itemContainer-nine",
+      previous: "«",
+      next: "»",
+      perPage      : 5,  /* num of items per page */
+      startPage    : 1,
+      startRange   : 1,
+      midRange     : 4,
+      endRange     : 1,
+      direction    : "auto"
+  });
+	$("div.page-holder-ten").jPages({
+      containerID  : "pag-itemContainer-ten",
       previous: "«",
       next: "»",
       perPage      : 5,  /* num of items per page */
