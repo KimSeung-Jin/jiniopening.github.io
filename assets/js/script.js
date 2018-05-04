@@ -386,17 +386,6 @@ $(function(){
       endRange     : 1,
       direction    : "auto"
   });
-	$("div.page-holder-four").jPages({
-      containerID  : "pag-itemContainer-four",
-      previous: "«",
-      next: "»",
-      perPage      : 5,  /* num of items per page */
-      startPage    : 1,
-      startRange   : 1,
-      midRange     : 4,
-      endRange     : 1,
-      direction    : "auto"
-  });
 	$("div.page-holder-nine").jPages({
       containerID  : "pag-itemContainer-nine",
       previous: "«",
