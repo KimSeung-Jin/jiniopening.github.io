@@ -4,12 +4,6 @@ title:  "git pull 강제로 강제로 받기"
 date:   2018-05-04 12:51:30 +0800
 categories: [Git]
 excerpt: git 를 쓰다 보면, classpath나 project 파일과 같은 이클립스 설정 파일이 자동으로 바뀌어지면서 git pull 명령시 에러가 날 수 있다.
-
- 
-
-git 서버 소스에 있는 것을 다 받으려면.. 다음의 명령을 내린다.
-
-
 tags:
   - Git
   - git pull error
@@ -17,7 +11,8 @@ tags:
   - git reset hard
 ---
 
-git pull 강제로 강제로 받기：
+### git pull 강제로 강제로 받기：
+---
 
 > git 를 쓰다 보면, orgigin master 와 local git 의 매칭이 안될 때가 있다. 이때 pull 명령시 에러가 날 수 있다.
 
