@@ -16,7 +16,7 @@ layout: default
 				<span class="posts-tab-item btn-center tab-six">Git</span>
 				<span class="posts-tab-item btn-center tab-seven">Network</span>
 				<span class="posts-tab-item btn-center tab-eight">Test</span>
-				<span class="posts-tab-item btn-right tab-nine">Test</span>
+				<span class="posts-tab-item btn-center tab-nine">클린코드</span>
 				<span class="posts-tab-item btn-right tab-ten">Etc</span>
 				{% for i in (1..11) %}
 					<i class="fa fa-paw" aria-hidden="true"></i>
@@ -200,7 +200,7 @@ layout: default
 			</ul>
 			<ul class="posts-list tab-nine-list" id="pag-itemContainer-nine">
 				{% assign counter-nine = 0 %}
-				{% for post in site.categories.Test %}
+				{% for post in site.categories.클린코드 %}
 				{% assign counter-nine = counter-nine | plus: 1 %}
 				<li>
 					<h2>
