@@ -98,7 +98,7 @@ $(document).ready(function () {
 	function showTabThree () {
 		$(".tab-three").addClass("active");
 		$(".tab-one").removeClass("active");
-		$(".tab-three").removeClass("active");
+		$(".tab-two").removeClass("active");
 		$(".tab-four").removeClass("active");
 		$(".tab-five").removeClass("active");
 		$(".tab-six").removeClass("active");
