@@ -10,9 +10,9 @@ layout: default
 			<div class="posts-tabs">
 				<span class="posts-tab-item btn-left tab-one active">Swift</span>
 				<span class="posts-tab-item btn-center tab-two">RxSwift</span>
-                		<span class="posts-tab-item btn-center tab-three">자료구조</span>
-                		<span class="posts-tab-item btn-center tab-four">알고리즘</span>
-				<span class="posts-tab-item btn-center tab-five">소공</span>
+                		<span class="posts-tab-item btn-center tab-three">D_S</span>
+                		<span class="posts-tab-item btn-center tab-four">Algo</span>
+				<span class="posts-tab-item btn-center tab-five">S_E</span>
 				<span class="posts-tab-item btn-center tab-six">Git</span>
 				<span class="posts-tab-item btn-center tab-seven">Network</span>
 				<span class="posts-tab-item btn-center tab-eight">Test</span>
@@ -67,7 +67,7 @@ layout: default
 			</ul>
 		    <ul class="posts-list tab-three-list tab-hidden" id="pag-itemContainer-three">
 			{% assign counter-three = 0 %}
-			{% for post in site.categories.자료구조 %}
+			{% for post in site.categories.D_S %}
 			{% assign counter-three = counter-three | plus: 1 %}
 			<li>
 			    <h2>
@@ -89,7 +89,7 @@ layout: default
 		    </ul>
 		    <ul class="posts-list tab-four-list tab-hidden" id="pag-itemContainer-four">
 			{% assign counter-four = 0 %}
-			{% for post in site.categories.알고리즘 %}
+			{% for post in site.categories.Algo %}
 			{% assign counter-four = counter-four | plus: 1 %}
 			<li>
 			    <h2>
@@ -111,7 +111,7 @@ layout: default
 		    </ul>
 			<ul class="posts-list tab-five-list" id="pag-itemContainer-five">
 				{% assign counter-five = 0 %}
-				{% for post in site.categories.소공 %}
+				{% for post in site.categories.S_E %}
 				{% assign counter-five = counter-five | plus: 1 %}
 				<li>
 					<h2>
