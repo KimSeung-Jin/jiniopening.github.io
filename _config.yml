@@ -34,7 +34,8 @@ comment:
 author:
   #resume: /resume
   name: Swift-Man     #the name of Blog section
-  about_me: Swift를 공부하는 중년 Objective-C 개발자입니다. 문의사항은 메일로 주세요~
+  about_me: Swift를 공부하는 Objective-C 개발자입니다. 
+  문의사항은 메일로 주세요~
  
 # Social Links
 email:               jiniopening@naver.com
