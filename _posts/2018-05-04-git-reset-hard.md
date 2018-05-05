@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Git pull 강제로 받기"
+title:  "[기초] Git pull 강제로 받기"
 date:   2018-05-04 12:51:30 +0800
 categories: [Git]
-excerpt: git 를 쓰다 보면, classpath나 project 파일과 같은 이클립스 설정 파일이 자동으로 바뀌어지면서 git pull 명령시 에러가 날 수 있다.
+excerpt: git reset --hard HEAD
 tags:
   - Git
   - git pull error
@@ -11,10 +11,10 @@ tags:
   - git reset hard
 ---
 
-git pull 강제로 강제로 받기：
+Git pull 강제로 받기：
 
 > git 를 쓰다 보면, origin master 와 local git 의 매칭이 안될 때가 있다. 
-이때 pull 명령시 에러가 날 수 있다.
+<br />이때 pull 명령시 에러가 날 수 있다.
 
 {% highlight html %}
 git reset --hard HEAD 
