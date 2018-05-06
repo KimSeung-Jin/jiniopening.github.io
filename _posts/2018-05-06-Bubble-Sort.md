@@ -8,7 +8,7 @@ tags:
   - Alrorithm
   - Sort
   - BubbleSort
-  - Instance
+  - 정렬 알고리즘
 ---
 
 # Bubble Sort
@@ -25,16 +25,12 @@ space compexity : O(1)
 
 <h4> Code </h4>
 {% highlight swift %}
-func bubbleSort(_ arr: inout [Int]) -> [Int] {
-    for _ in 0..<arr.count-1 {
-        for j in 0..<arr.count-1 {
-            if arr[j] > arr[j+1] {
-                arr.swapAt(j, j+1)
-            }
+for _ in 0..<arr.count-1 {
+    for j in 0..<arr.count-1 {
+        if arr[j] > arr[j+1] {
+            arr.swapAt(j, j+1)
         }
     }
-
-    return arr
 }
 {% endhighlight %}
 
