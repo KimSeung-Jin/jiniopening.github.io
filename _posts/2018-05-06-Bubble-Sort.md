@@ -3,7 +3,7 @@ layout: post
 title:  "[기초] Bubble Sort"
 date:   2018-05-06 03:19:30 +0800
 categories: [Algo]
-excerpt: "[알고리즘] Bubble Sort performace:O(n^2), space compexity:O(1)"
+excerpt: "performace:O(n^2), space compexity:O(1)"
 tags:
   - Alrorithm
   - Sort
