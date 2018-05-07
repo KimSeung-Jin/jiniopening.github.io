@@ -33,8 +33,9 @@
 	.kp { color: #FFFFFF; font-weight: bold } /* Keyword.Pseudo */
 	.kr { color: #FFFFFF; font-weight: bold } /* Keyword.Reserved */
 	.kt { color: #445588; font-weight: bold } /* Keyword.Type */
+	.n { color: #FFFFFF } 
 	.m { color: #009999 } /* Literal.Number */
-	.p { color: $blue } /* { } ( ) */
+	.p { color: #FFFFFF } /* { } ( ) */
 	.s { color: $light-red } /* Literal.String */
 	.na { color: #00b16a } /* Name.Attribute */
 	.nb { color: #0086B3 } /* Name.Builtin */
