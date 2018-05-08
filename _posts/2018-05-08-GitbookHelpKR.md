@@ -3,7 +3,7 @@ layout: post
 title:  "[Markdown] 도움말"
 date:   2018-05-08 14:59:30 +0800
 categories: [ETC]
-excerpt: 캡슐화, 추상화, 다형성, 상속성
+excerpt: GitBook 도움말
 tags:
   - Markdown
   - Gitbook
