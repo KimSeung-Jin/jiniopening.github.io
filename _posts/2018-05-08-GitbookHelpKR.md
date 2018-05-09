@@ -111,6 +111,7 @@ SUMMARY.md 의 포멧은 간단한 링크들의 목록이다.
 
 챕터와 서브챕터
 ---
+
 ~~~
 [제목](파일링크) 로 작성하면 된다.
 * [형식](1. 형식.md)
@@ -129,6 +130,7 @@ SUMMARY.md 의 포멧은 간단한 링크들의 목록이다.
 다 완벽한 정보를 원한다면 John Gruber의 오리지널 사양서와 깃허브-플레이버 마크다운 정보 페
 이지를 참조해라.
 #헤더들
+
 ~~~
 # H1
 ## H2
@@ -137,7 +139,9 @@ SUMMARY.md 의 포멧은 간단한 링크들의 목록이다.
 ##### H5
 ###### H6
 ~~~
+
 또한 H1과 H2제목에는 밑줄을 줄 수 있다. (밑줄을 사용하면 H1과 H2 스타일로 적용된다.)
+
 ~~~
 Alt-H1
 =====
@@ -148,12 +152,14 @@ Alt-H2
 #단락과 줄 바꿈
 단락은 단순히 한 줄 이상의 공백 라인에 의해 분리된다. (공백 라인은 스페이스바나 텝으로만 이루
 어진 행을 뜻합니다.) 일반 단락은 공백이나 탭으로 들여쓰기를 하지 않아야 한다.
+
 ~~~
 이곳은 우리가 시작하는 줄이다.
 이 줄은 위의 공백 라인에 의해 *별도의 단락*이 될 것이다.
 이 줄도 별도의 단락이다. 하지만...
 이 줄은 공백 라인 없는 줄 바꿈으로 구분되어 *같은 단락*의 별도의 라인이 된다.
 ~~~
+
 #강조
 마크다운
 ---
@@ -164,8 +170,10 @@ Alt-H2
 결합된 강조는 **별표 안에 _언더바_**로 표현한다.
 취소선은 ~~두 물결표시~~로 표현한다.
 ~~~
+
 #리스트
 (이 예에서는 선행과 후행의 빈 공간을 점으로 표시한다)
+
 ~~~
 1. 첫 번째 리스트 아이템
 2. 다른 아이템
@@ -182,9 +190,11 @@ Alt-H2
 - 또는 마이너스
 + 또는 플러스
 ~~~
+
 #링크
-마크다운
+
 ---
+
 ~~~
 다음 두 가지 방법으로 링크를 만들 수 있다.
 [인라인 링크](https://www.google.com)
@@ -198,14 +208,18 @@ Alt-H2
 [1]: http://slashdot.org
 [링크 텍스트 자체]: http://www.reddit.com
 ~~~
+
 #각주
 마크다운에서 사용되는 기본 각주 스타일 링크는 페이지에 표시되지 않는다. 링크없이 포함된 각주
 는 리더에서 볼 때 유용하다. 깃북은 간단한 문법으로 각주를 찾을 수 있도록 제공한다.
+
 ~~~
 선 텍스트 후 각주 [^2]
 [^2] 각주의 상세 내용
 ~~~
+
 #이미지
+
 ~~~
 인라인 스타일:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon4
@@ -221,13 +235,16 @@ g "Logo Title Text 1"
 과 같은 많은 렌더러들은 문법 강조를 지원한다. 몇몇 언어는 렌더러에 맞게 다르게 작성되어야 한
 다. 마크다운은 수십개 언어에 대한 강조를 지원한다.(HTTP와 같은 현실의 언어 이외에도 ) 다음
 예제에는 어떻게 언어의 이름들을 써야 하는지 보여준다. 하이라이트.js 데모 페이지
+
 ~~~
 인라인 코드는 `역따옴표`로 그것을 감싼다.
 (역자: 역따옴표는 키보드 1키의 왼쪽 ~와 함께 있다.)
 ~~~
 
+~~~
 코드블록들은 세개의 역따옴표 ````` 라인으로 구분하거나 4칸 들여쓰기로 구분된다. 나는 3개의 역
 따옴표로 구분하는것을 추천한다. 그것은 쉽고 문법강조를 지원받을 수 있다.
+~~~
 
 ~~~
 ```javascript
@@ -267,7 +284,6 @@ print s
 별모양들
 ___
 언더바들
-
 ~~~
 
 #아스키 문서
@@ -283,7 +299,6 @@ LANGS.adoc , 그리고 GLOSSARY.adoc
 서브챕터는 부모 챕터에 포함된 리스트로 간단히 정의된다.
 
 ~~~
-
 = Summary
 . link:chapter-1/README.adoc[Chapter 1]
 .. link:chapter-1/ARTICLE1.adoc[Article 1]
@@ -294,7 +309,6 @@ LANGS.adoc , 그리고 GLOSSARY.adoc
 . link:chapter-4/README.adoc[Chapter 4]
 .. Unfinished article
 . Unfinished Chapter
-
 ~~~
 
 #LANGS.adoc
@@ -309,7 +323,6 @@ LANGS.adoc , 그리고 GLOSSARY.adoc
 이 파일은 용어집이다. 자세한 사항은 용어집항목 참조.
 
 ~~~
-
 = Glossary
 == Magic
 Sufficiently advanced technology, beyond the understanding of the observer producing a
@@ -317,7 +330,6 @@ sense of wonder.
 == PHP
 An atrocious language, invented for the sole purpose of inflicting pain and suffering
 amongst the programming wizards of this world.
-
 ~~~
 
 #표지
@@ -427,7 +439,10 @@ file.mtime 파일이 마지막으로 수정된 시간
 테그는 템플릿 부분에 대한 작업을 수행하기 위한 특수 블록이다.
 
 #If
+
+~~~
 if는 조건을 테스트하고 문맥을 선택적으로 표시한다. 이것은 프로그래밍 언어와 유사하다.
+~~~
 
 ~~~
 {% if 변수명 %}
