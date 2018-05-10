@@ -2,7 +2,7 @@
 layout: post
 title:  "[Markdown] 도움말"
 date:   2018-05-08 14:59:30 +0800
-categories: [ETC]
+categories: [Etc]
 excerpt: GitBook 도움말
 tags:
   - Markdown
