@@ -15,7 +15,13 @@ tags:
 
 <h3> 특징 </h3>
 
->정렬 알고리즘을 직접 구현할 일은 거의 없겠지만 각각의 차이와 장단점에 대해 알아둘 필요가 있습니다. 각 알고리즘 마다 장점과 단점이 있고, 모든 경우에 대해 최선의 결과를 내는 알고리즘은 없습니다. 단 버블정렬은 너무 느리기 때문에 잘 쓰이지 않습니다.
+>정렬 알고리즘을 직접 구현할 일은 거의 없겠지만 각각의 차이와 장단점에 대해 알아둘 필요가 있습니다. 각 알고리즘 마다 장점과 단점이 있고, 모든 경우에 대해 최선의 결과를 내는 알고리즘은 없습니다. 
+
+![viewport1](http://mblogthumb4.phinf.naver.net/MjAxNzAxMTFfNTAg/MDAxNDg0MDg4MjU0MTk0.DSKjf723wuWzYpF1PieOszYBWArZGtKbLsHdybT-ihcg.lCnA_yjgAACkWpSho1g3jNr_P7iZYTP4ozdZ1LpaFicg.JPEG.doek11/12.jpg?type=w800)
+
+>각각의 정렬 알고리즘을 알아가 봅시다. 저의 경우는 하나씩 공부하다 보니 왜 느리고 빠른지 이해가 되었습니다.
+
+>단, 버블정렬은 너무 느리기 때문에 실무에서 잘 쓰이지 않습니다.
 
 >performace : O(n^2)<br />
 space compexity : O(1)
