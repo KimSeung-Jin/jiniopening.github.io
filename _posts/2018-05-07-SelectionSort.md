@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[기초] Selection Sort"
+title:  "[알고리즘] Selection Sort"
 date:   2018-05-07 02:40:30 +0800
 categories: [Algo]
 excerpt: "performace:O(n^2), space compexity:O(1)"

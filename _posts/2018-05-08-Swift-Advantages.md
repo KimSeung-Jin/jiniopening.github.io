@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Swift 의 주요 이점"
-date:   2018-05-08 12:53:30 +0800
+date:   2018-05-14 12:53:30 +0800
 categories: [Swift]
-excerpt: "performace:O(n^2), space compexity:O(1)"
+excerpt: "옵셔널, 크래시 저항, 에러 핸들링, 클로저, 속도, 타입추론, 패턴 일치"
 tags:
   - Swift
   - Functional Programming

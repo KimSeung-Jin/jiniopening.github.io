@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Xcode 시뮬레이터 제거하기"
+title:  "[Xcode] 시뮬레이터 제거하기"
 date:   2018-05-13 18:53:30 +0800
 categories: [Etc]
 excerpt: "/Library/Developer/CoreSimulator/Profiles/Runtimes"

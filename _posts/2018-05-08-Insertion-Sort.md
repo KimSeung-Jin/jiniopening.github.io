@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[기초] Insertion Sort"
+title:  "[알고리즘] Insertion Sort"
 date:   2018-05-08 12:53:30 +0800
 categories: [Algo]
 excerpt: "performace:O(n^2), space compexity:O(1)"
