@@ -41,3 +41,13 @@ func swap(a: Int, b: Int) {
 마이크로 초보다 더 적지만 연산 시간에 차이가 있을 수 있다.
 메모리 공간을 절약할 수 있다.
 
+
+재밌는 것은
+XOR Swap 은 별로라고 한다.
+
+링크
+https://en.wikipedia.org/wiki/XOR_swap_algorithm
+http://minjang.egloos.com/1241820
+
+
+
