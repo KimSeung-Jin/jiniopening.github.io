@@ -14,7 +14,7 @@ tags:
 ---
 
 
-~~~
+{% highlight swift %}
  - == ascii(45)
  . == ascii(46)
  0 == ascii(48)
@@ -25,4 +25,4 @@ tags:
  a == ascii(97)
  z == ascii(122)
  
-~~~
+{% endhighlight %}
