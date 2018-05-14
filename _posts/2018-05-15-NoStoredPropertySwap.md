@@ -13,6 +13,7 @@ tags:
 # Temp 변수를 사용하지 않고 Swap 하기
 ---
 
+결론 : Temp 를 쓰자.
 
 {% highlight swift %}
 
