@@ -3,11 +3,16 @@ layout: post
 title:  "[알고리즘] 외워두면 좋은 AsciiCode"
 date:   2018-05-15 03:35:30 +0800
 categories: [Algo]
-excerpt: AsciiCode
+excerpt: "AsciiCode"
 tags:
   - AsciiCode
   
 ---
+
+
+# 외워두면 좋은 AsciiCode
+---
+
 
 ~~~
  - == ascii(45)
