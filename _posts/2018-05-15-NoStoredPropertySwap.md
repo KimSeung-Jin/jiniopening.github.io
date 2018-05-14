@@ -38,5 +38,5 @@ func swap(a: Int, b: Int) {
  
 {% endhighlight %}
 
-연산 시간이 더 빠르다.
+연산 시간 거의 차이가 없다.
 메모리 공간을 절약할 수 있다.
