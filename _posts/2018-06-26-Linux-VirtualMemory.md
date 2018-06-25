@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux virtual address space"
 date:   2018-06-26 01:23:30 +0800
-categories: [ETC]
+categories: [Etc]
 excerpt: Linux virtual address space
 tags:
   - Linux
