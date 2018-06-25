@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[기초] Git pull 강제로 받기"
+title:  "[Git] pull 강제로 받기"
 date:   2018-05-04 12:51:30 +0800
 categories: [Git]
 excerpt: git reset --hard HEAD
