@@ -10,6 +10,8 @@ tags:
 
 다른 브랜치의 일부 커밋만 반영하고 싶을 때
 
+{% highlight git %}
 # git checkout next-release
 # git cherry-pick b14b975
 # git log --pretty=oneline
+{% endhighlight %}
