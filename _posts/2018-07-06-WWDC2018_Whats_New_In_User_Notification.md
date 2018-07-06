@@ -33,7 +33,7 @@ Off|iOS 11 이하 버전과 동일
 	3. 채팅
 	4. 배송관리 등
 
-###Notification Content Extension
+### Notification Content Extension
 * Push 하단에 custom context 를 추가할 수 있음.
 
 * identifier 를 Xcode info.plist 에 미리 설정
