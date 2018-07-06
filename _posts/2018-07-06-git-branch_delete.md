@@ -8,7 +8,7 @@ tags:
   - Git
   - git branch - d
   - git 브랜치 삭제
-  - git reset hard
+  - git branch delete
 ---
 
 Git 브랜치 삭제：

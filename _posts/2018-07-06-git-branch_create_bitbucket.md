@@ -11,7 +11,7 @@ tags:
   - create git branch
 ---
 
-### Git 브랜치 생성：
+### Git 브랜치 생성
 
 ```
 $ git branch <branchname>
