@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Git] Bitbucket 에서 쉽게 Branch 생성하기"
-date:   2018-05-04 12:51:30 +0800
+date:   2018-07-06 18:04:30 +0800
 categories: [Git]
 excerpt: branch 생성
 tags:

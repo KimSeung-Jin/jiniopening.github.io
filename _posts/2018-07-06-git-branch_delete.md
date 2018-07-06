@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Git] 브랜치 삭제하기"
-date:   2018-05-04 12:51:30 +0800
+date:   2018-07-06 12:51:30 +0800
 categories: [Git]
 excerpt: git branch -d <branchname>
 tags:
