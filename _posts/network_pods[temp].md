@@ -34,3 +34,6 @@ target '프로젝트명2' do
   network_pods
   core_pods
 end
+
+
+https://github.com/ClintJang/cocoapods-tips/blob/master/README.md
